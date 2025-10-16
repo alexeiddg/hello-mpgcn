@@ -3,7 +3,7 @@ import logging
 import numpy as np
 import os
 from torch.utils.data import Dataset
-from utils import graph_processing, multi_input
+from .utils import graph_processing, multi_input
 
 
 class K400_HRNet_Feeder(Dataset):
